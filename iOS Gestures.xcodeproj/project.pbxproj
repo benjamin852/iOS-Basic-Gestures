@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B521A581E7ADD0F00B0096C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B521A571E7ADD0F00B0096C /* main.m */; };
+		9B521A5B1E7ADD0F00B0096C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B521A5A1E7ADD0F00B0096C /* AppDelegate.m */; };
+		9B521A611E7ADD0F00B0096C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B521A5F1E7ADD0F00B0096C /* Main.storyboard */; };
+		9B521A631E7ADD0F00B0096C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B521A621E7ADD0F00B0096C /* Assets.xcassets */; };
+		9B521A661E7ADD0F00B0096C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B521A641E7ADD0F00B0096C /* LaunchScreen.storyboard */; };
+		9B521A6F1E7AE04900B0096C /* PanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B521A6E1E7AE04900B0096C /* PanViewController.m */; };
+		9B521A721E7AE05400B0096C /* TapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B521A711E7AE05400B0096C /* TapViewController.m */; };
+		9B521A751E7AE43200B0096C /* PinchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B521A741E7AE43200B0096C /* PinchViewController.m */; };
+		9B521A781E7AF29000B0096C /* SwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B521A771E7AF29000B0096C /* SwipeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9B521A531E7ADD0F00B0096C /* iOS Gestures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Gestures.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B521A571E7ADD0F00B0096C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B521A591E7ADD0F00B0096C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9B521A5A1E7ADD0F00B0096C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9B521A601E7ADD0F00B0096C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B521A621E7ADD0F00B0096C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B521A651E7ADD0F00B0096C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B521A671E7ADD0F00B0096C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B521A6D1E7AE04900B0096C /* PanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanViewController.h; sourceTree = "<group>"; };
+		9B521A6E1E7AE04900B0096C /* PanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanViewController.m; sourceTree = "<group>"; };
+		9B521A701E7AE05400B0096C /* TapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapViewController.h; sourceTree = "<group>"; };
+		9B521A711E7AE05400B0096C /* TapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapViewController.m; sourceTree = "<group>"; };
+		9B521A731E7AE43200B0096C /* PinchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PinchViewController.h; path = "iOS Gestures/PinchViewController.h"; sourceTree = "<group>"; };
+		9B521A741E7AE43200B0096C /* PinchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PinchViewController.m; path = "iOS Gestures/PinchViewController.m"; sourceTree = "<group>"; };
+		9B521A761E7AF29000B0096C /* SwipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeViewController.h; sourceTree = "<group>"; };
+		9B521A771E7AF29000B0096C /* SwipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B521A501E7ADD0F00B0096C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B521A4A1E7ADD0F00B0096C = {
+			isa = PBXGroup;
+			children = (
+				9B521A6D1E7AE04900B0096C /* PanViewController.h */,
+				9B521A6E1E7AE04900B0096C /* PanViewController.m */,
+				9B521A731E7AE43200B0096C /* PinchViewController.h */,
+				9B521A741E7AE43200B0096C /* PinchViewController.m */,
+				9B521A701E7AE05400B0096C /* TapViewController.h */,
+				9B521A711E7AE05400B0096C /* TapViewController.m */,
+				9B521A761E7AF29000B0096C /* SwipeViewController.h */,
+				9B521A771E7AF29000B0096C /* SwipeViewController.m */,
+				9B521A551E7ADD0F00B0096C /* iOS Gestures */,
+				9B521A541E7ADD0F00B0096C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B521A541E7ADD0F00B0096C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B521A531E7ADD0F00B0096C /* iOS Gestures.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B521A551E7ADD0F00B0096C /* iOS Gestures */ = {
+			isa = PBXGroup;
+			children = (
+				9B521A591E7ADD0F00B0096C /* AppDelegate.h */,
+				9B521A5A1E7ADD0F00B0096C /* AppDelegate.m */,
+				9B521A5F1E7ADD0F00B0096C /* Main.storyboard */,
+				9B521A621E7ADD0F00B0096C /* Assets.xcassets */,
+				9B521A641E7ADD0F00B0096C /* LaunchScreen.storyboard */,
+				9B521A671E7ADD0F00B0096C /* Info.plist */,
+				9B521A561E7ADD0F00B0096C /* Supporting Files */,
+			);
+			path = "iOS Gestures";
+			sourceTree = "<group>";
+		};
+		9B521A561E7ADD0F00B0096C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B521A571E7ADD0F00B0096C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B521A521E7ADD0F00B0096C /* iOS Gestures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B521A6A1E7ADD0F00B0096C /* Build configuration list for PBXNativeTarget "iOS Gestures" */;
+			buildPhases = (
+				9B521A4F1E7ADD0F00B0096C /* Sources */,
+				9B521A501E7ADD0F00B0096C /* Frameworks */,
+				9B521A511E7ADD0F00B0096C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS Gestures";
+			productName = "iOS Gestures";
+			productReference = 9B521A531E7ADD0F00B0096C /* iOS Gestures.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B521A4B1E7ADD0F00B0096C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Ben Weinberg";
+				TargetAttributes = {
+					9B521A521E7ADD0F00B0096C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9B521A4E1E7ADD0F00B0096C /* Build configuration list for PBXProject "iOS Gestures" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B521A4A1E7ADD0F00B0096C;
+			productRefGroup = 9B521A541E7ADD0F00B0096C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B521A521E7ADD0F00B0096C /* iOS Gestures */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B521A511E7ADD0F00B0096C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B521A661E7ADD0F00B0096C /* LaunchScreen.storyboard in Resources */,
+				9B521A631E7ADD0F00B0096C /* Assets.xcassets in Resources */,
+				9B521A611E7ADD0F00B0096C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B521A4F1E7ADD0F00B0096C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B521A6F1E7AE04900B0096C /* PanViewController.m in Sources */,
+				9B521A5B1E7ADD0F00B0096C /* AppDelegate.m in Sources */,
+				9B521A751E7AE43200B0096C /* PinchViewController.m in Sources */,
+				9B521A781E7AF29000B0096C /* SwipeViewController.m in Sources */,
+				9B521A721E7AE05400B0096C /* TapViewController.m in Sources */,
+				9B521A581E7ADD0F00B0096C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9B521A5F1E7ADD0F00B0096C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B521A601E7ADD0F00B0096C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B521A641E7ADD0F00B0096C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B521A651E7ADD0F00B0096C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B521A681E7ADD0F00B0096C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9B521A691E7ADD0F00B0096C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B521A6B1E7ADD0F00B0096C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS Gestures/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ben.iOS-Gestures";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9B521A6C1E7ADD0F00B0096C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS Gestures/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ben.iOS-Gestures";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B521A4E1E7ADD0F00B0096C /* Build configuration list for PBXProject "iOS Gestures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B521A681E7ADD0F00B0096C /* Debug */,
+				9B521A691E7ADD0F00B0096C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B521A6A1E7ADD0F00B0096C /* Build configuration list for PBXNativeTarget "iOS Gestures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B521A6B1E7ADD0F00B0096C /* Debug */,
+				9B521A6C1E7ADD0F00B0096C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B521A4B1E7ADD0F00B0096C /* Project object */;
+}
